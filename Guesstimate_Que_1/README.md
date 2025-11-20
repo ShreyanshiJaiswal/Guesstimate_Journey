@@ -49,14 +49,18 @@ Household calculations:
 ## 4. Step 3: Segmentation of Households
 
 ### Urban household segmentation:
-- High: 10% of 100 million = **10 million**
-- Middle: 40% of 100 million = **40 million**
-- Low: 50% of 100 million = **50 million**
+| Category | % Share | Household Count |
+|---------|---------|-----------------|
+| High    | 10%     | 10 million      |
+| Middle  | 40%     | 40 million      |
+| Low     | 50%     | 50 million      |
 
 ### Rural household segmentation:
-- High: 10% of 200 million = **20 million**
-- Middle: 30% of 200 million = **60 million**
-- Low: 60% of 200 million = **120 million**
+| Category | % Share | Household Count |
+|---------|---------|-----------------|
+| High    | 10%     | 20 million      |
+| Middle  | 30%     | 60 million      |
+| Low     | 60%     | 120 million     |
 
 ---
 
