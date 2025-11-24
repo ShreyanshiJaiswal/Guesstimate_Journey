@@ -1,11 +1,11 @@
 # 100 Guesstimates Journey
 
-This repository is where I solve one guesstimate every day to improve my problem-solving and critical-thinking skills.  
+This repository is where I solve guesstimates to improve my problem-solving and critical-thinking skills.  
 I’m using this space to track my progress and stay consistent.
 
 ## 📌 How I’m Solving These
 - I have a list of 100 guesstimate questions.  
-- I solve one question daily in my notebook first.  
+- I am aiming at solving one question daily in my notebook first.  
 - Then I write the structured solution here in a clean and simple way.
 
 ## 📂 Repository Structure
