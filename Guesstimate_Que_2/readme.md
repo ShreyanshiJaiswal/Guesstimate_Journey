@@ -10,7 +10,7 @@ Before solving the guesstimate, we clarify the scope of the question:
 
 ### Final Clarified Question
 
-> Estimate the annual Google Ads revenue generated through Google Search in India.
+Estimate the annual Google Ads revenue generated through Google Search in India.
 
 ---
 
