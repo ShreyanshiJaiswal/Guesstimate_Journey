@@ -18,8 +18,12 @@ Before solving the guesstimate, we clarify the scope of the question:
 
 The estimation will follow the following framework:
 
+## Framework
+
+The estimation will follow this framework:
+
 ```mermaid
-flowchart LR
+flowchart TD
 
     A["Internet Active Users"]
 
@@ -30,11 +34,11 @@ flowchart LR
     B --> E["Medium Users"]
     B --> F["Low Users"]
 
-    D --> G["Total Searches"]
+    D --> G["Total Google Searches"]
     E --> G
     F --> G
 
-    G --> H["Total Ads"]
+    G --> H["Searches Showing Ads"]
     H --> I["Click-Through Rate (CTR)"]
     I --> J["Total Ad Clicks"]
     J --> K["Cost Per Click (CPC)"]
