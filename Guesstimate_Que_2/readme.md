@@ -14,9 +14,6 @@ Estimate the annual Google Ads revenue generated through Google Search in India.
 
 ---
 
-## Framework
-
-The estimation will follow the following framework:
 
 ## Framework
 
