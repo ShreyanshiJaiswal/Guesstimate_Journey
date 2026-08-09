@@ -20,22 +20,17 @@ The estimation will follow the following framework:
 
 ```mermaid
 flowchart LR
-
-    A["Internet Active Users"]
-    --> B["Google Search Users<br/>vs.<br/>Other Search Engine Users"]
-    --> C["Google Search User Segmentation<br/>Power / Medium / Low Users"]
-    --> D["Searches per User<br/>by Segment"]
-    --> E["Total Google Searches"]
-    --> F["Searches Showing Ads"]
-    --> G["Click-Through Rate<br/>(CTR)"]
-    --> H["Ad Clicks"]
-    --> I["Cost Per Click<br/>(CPC)"]
-    --> J["Daily Google Ads Revenue"]
-    --> K["Annual Google Ads Revenue"]
-
-    classDef bigBlock fill:#f8f9fa,stroke:#333,stroke-width:2px,color:#111,font-size:16px;
-
-    class A,B,C,D,E,F,G,H,I,J,K bigBlock;
+    A[Internet Active Users]
+    --> B[Google Search Users<br/>vs. Other Search Engine Users]
+    --> C[Google Search User Segmentation<br/>Power / Medium / Low Users]
+    --> D[Searches per User<br/>by User Segment]
+    --> E[Total Google Searches]
+    --> F[Searches Showing Ads]
+    --> G[Click-Through Rate<br/>CTR]
+    --> H[Ad Clicks]
+    --> I[Cost Per Click<br/>CPC]
+    --> J[Daily Google Ads Revenue]
+    --> K[Annual Google Ads Revenue]
 ```
 
 ---
