@@ -1,11 +1,5 @@
 # Guesstimate: Domestic Refrigerator Sales in India
 
-## Business Question
-
-**Estimate the domestic refrigerator sales in India.**
-
----
-
 ## Clarifying Questions
 
 Before estimating, we clarify the following:
