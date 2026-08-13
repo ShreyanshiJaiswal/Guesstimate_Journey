@@ -38,6 +38,12 @@ Assume:
 - Middle = 50%
 - Poor = 20%
 
+Vehicle ownership assumptions:
+
+- Rich = 3 vehicle per person
+- Middle = 2 vehicles
+- Poor = 1 vehicles
+
 | Segment | Population | Vehicles per Person | Total Vehicles |
 |---|---:|---:|---:|
 | Rich | 560M × 30% = 168M | 3 | 504M |
@@ -140,49 +146,15 @@ Battery assumptions:
 | 4-Wheeler | EV | ₹2,00,000 | 5 years |
 | 4-Wheeler | Traditional | ₹20,000 | 2 years |
 
-#### 2-Wheeler EV
-
-**226.8M × ₹10,000 ÷ 5**
-
-= ₹453.6B
-
-= **₹45,360 Cr**
-
-#### 2-Wheeler Traditional
-
-**529.2M × ₹2,000 ÷ 2**
-
-= ₹529.2B
-
-= **₹52,920 Cr**
-
-#### Total 2-Wheeler Battery Market
-
-**₹45,360 Cr + ₹52,920 Cr**
-
-= **₹98,280 Cr**
-
-#### 4-Wheeler EV
-
-**100.8M × ₹2,00,000 ÷ 5**
-
-= ₹4,032B
-
-= **₹4,03,200 Cr**
-
-#### 4-Wheeler Traditional
-
-**403.2M × ₹20,000 ÷ 2**
-
-= ₹4,032B
-
-= **₹4,03,200 Cr**
-
-#### Total 4-Wheeler Battery Market
-
-**₹4,03,200 Cr + ₹4,03,200 Cr**
-
-= **₹8,06,400 Cr**
+| Vehicle Type | Battery Type | Vehicles | Battery Cost | Replacement Frequency | Annual Battery Market |
+|---|---|---:|---:|---:|---:|
+| 2-Wheeler | EV | 226.8M | ₹10,000 | 5 years | **₹45,360 Cr** |
+| 2-Wheeler | Traditional | 529.2M | ₹2,000 | 2 years | **₹52,920 Cr** |
+| **2-Wheeler Total** | | **756M** | | | **₹98,280 Cr** |
+| 4-Wheeler | EV | 100.8M | ₹2,00,000 | 5 years | **₹4,03,200 Cr** |
+| 4-Wheeler | Traditional | 403.2M | ₹20,000 | 2 years | **₹4,03,200 Cr** |
+| **4-Wheeler Total** | | **504M** | | | **₹8,06,400 Cr** |
+| **Total Automotive Battery Market** | | **1.26B** | | | **₹9,04,680 Cr** |
 
 ### Step 7: Final Market Size
 
