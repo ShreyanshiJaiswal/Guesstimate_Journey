@@ -40,9 +40,9 @@ Assume:
 
 Vehicle ownership assumptions:
 
-- Rich = 3 vehicle per person
-- Middle = 2 vehicles
-- Poor = 1 vehicles
+- Rich = 3 vehicles per person
+- Middle = 2 vehicles per person
+- Poor = 1 vehicle per person
 
 | Segment | Population | Vehicles per Person | Total Vehicles |
 |---|---:|---:|---:|
@@ -88,8 +88,6 @@ Vehicle ownership assumptions:
 
 = **1,260M**
 
-Therefore:
-
 **Total vehicles = 1.26 billion**
 
 ### Step 3: Split Vehicles into 2-Wheelers and 4-Wheelers
@@ -133,18 +131,9 @@ Assume:
 
 ### Step 6: Estimate Annual Battery Market
 
-The formula is:
+Formula:
 
 **Annual Battery Market = Number of Vehicles × Battery Cost ÷ Replacement Frequency**
-
-Battery assumptions:
-
-| Vehicle Type | Battery Type | Battery Cost | Replacement Frequency |
-|---|---|---:|---:|
-| 2-Wheeler | EV | ₹10,000 | 5 years |
-| 2-Wheeler | Traditional | ₹2,000 | 2 years |
-| 4-Wheeler | EV | ₹2,00,000 | 5 years |
-| 4-Wheeler | Traditional | ₹20,000 | 2 years |
 
 | Vehicle Type | Battery Type | Vehicles | Battery Cost | Replacement Frequency | Annual Battery Market |
 |---|---|---:|---:|---:|---:|
@@ -155,18 +144,6 @@ Battery assumptions:
 | 4-Wheeler | Traditional | 403.2M | ₹20,000 | 2 years | **₹4,03,200 Cr** |
 | **4-Wheeler Total** | | **504M** | | | **₹8,06,400 Cr** |
 | **Total Automotive Battery Market** | | **1.26B** | | | **₹9,04,680 Cr** |
-
-### Step 7: Final Market Size
-
-| Vehicle Type | Battery Type | Vehicles | Battery Cost | Replacement | Annual Market |
-|---|---|---:|---:|---:|---:|
-| 2W | EV | 226.8M | ₹10,000 | 5 years | **₹45,360 Cr** |
-| 2W | Traditional | 529.2M | ₹2,000 | 2 years | **₹52,920 Cr** |
-| **2W Total** | | **756M** | | | **₹98,280 Cr** |
-| 4W | EV | 100.8M | ₹2,00,000 | 5 years | **₹4,03,200 Cr** |
-| 4W | Traditional | 403.2M | ₹20,000 | 2 years | **₹4,03,200 Cr** |
-| **4W Total** | | **504M** | | | **₹8,06,400 Cr** |
-| **Total** | | **1.26B** | | | **₹9,04,680 Cr** |
 
 ## Final Estimate
 
@@ -181,27 +158,3 @@ Battery assumptions:
 Therefore:
 
 **Estimated automotive battery market in India for one full year ≈ ₹9.05 lakh crore**
-
-## Margin
-
-The above calculation estimates the **annual market size/revenue opportunity**.
-
-To calculate profit margin, we would need an assumption for the industry's margin.
-
-**Annual Profit = Annual Market Size × Profit Margin**
-
-Since no margin assumption has been provided, the margin cannot be calculated from the current assumptions alone.
-
-## Summary
-
-- Population = **1.4 billion**
-- Total estimated vehicles = **1.26 billion**
-- 2-wheelers = **756 million**
-- 4-wheelers = **504 million**
-- 2W EV = **226.8 million**
-- 2W Traditional = **529.2 million**
-- 4W EV = **100.8 million**
-- 4W Traditional = **403.2 million**
-- Annual 2W battery market = **₹98,280 Cr**
-- Annual 4W battery market = **₹8,06,400 Cr**
-- **Total annual automotive battery market = ₹9.05 lakh crore**
