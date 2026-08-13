@@ -129,7 +129,18 @@ Assume:
 | Traditional | 80% | 504M × 80% = **403.2M** |
 | **Total** | **100%** | **504M** |
 
-### Step 6: Estimate Annual Battery Market
+### Step 6: Battery Cost and Replacement Assumptions
+
+We assume the following average battery costs and replacement frequencies:
+
+| Vehicle Type | Battery Type | Average Battery Cost | Replacement Frequency |
+|---|---|---:|---:|
+| 2-Wheeler | EV | ₹10,000 | Every 5 years |
+| 2-Wheeler | Traditional | ₹2,000 | Every 2 years |
+| 4-Wheeler | EV | ₹2,00,000 | Every 5 years |
+| 4-Wheeler | Traditional | ₹20,000 | Every 2 years |
+
+### Step 7: Estimate Annual Battery Market
 
 Formula:
 
