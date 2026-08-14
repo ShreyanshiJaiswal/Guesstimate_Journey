@@ -12,13 +12,13 @@
 
 ## Solution
 
-The shortest distance between two distant cities should be thought of as a **great-circle distance on the Earth's surface**.
-
-Instead of trying to calculate the distance country-by-country or along the Pacific Ocean, we can divide the journey into a few major geographical checkpoints and estimate each segment.
+We can estimate the distance by dividing the journey into major geographical checkpoints rather than calculating the distance country by country.
 
 ### Key Logic
 
-The shortest route from New York to Delhi goes generally **eastward across the Atlantic, through Europe and West Asia, and then into India**.
+Since New York and Delhi are on opposite sides of the Atlantic and Eurasian landmass, the shortest route broadly travels eastward from New York, across the Atlantic toward Europe, through West Asia, and finally into India.
+
+We estimate the distance of each major section and add them together.
 
 A simple checkpoint-based breakdown is:
 
@@ -40,11 +40,3 @@ Therefore:
 ### Final Estimate
 
 **Distance between New York and New Delhi ≈ 12,000 km**
-
-The actual great-circle distance is approximately **11,700 km**, so the guesstimate is reasonably close.
-
-## Important Insight
-
-For long-distance geographical guesstimates, it is better to think about the route on a **globe rather than a flat map**.
-
-The initial assumption that the route would cross the Pacific Ocean is incorrect. The shortest route from New York to Delhi generally travels across the **Atlantic and Eurasian landmass**, not across the Pacific.
