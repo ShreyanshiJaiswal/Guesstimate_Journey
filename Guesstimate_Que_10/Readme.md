@@ -20,20 +20,15 @@
 
 ---
 
-# Solution
+## Solution
 
-## Key Logic
+### Key Logic
 
-We estimate the cow population using households as the primary unit.
+We estimate the cow population using households as the primary unit:
 
-**India's Population**
-→ **Rural / Urban Population**
-→ **Number of Households**
-→ **Households Owning Cows**
-→ **Average Cows per Cow-owning Household**
-→ **Household/Dairy Cows**
+**India's Population → Rural/Urban Population → Number of Households → Cow-owning Households → Average Cows per Household**
 
-Freely moving/stray cows are estimated separately and then added to the household/dairy population.
+Freely moving/stray cows are estimated separately and then added to the household/dairy cow population.
 
 ---
 
@@ -47,6 +42,18 @@ Assume India's population = **1.4 billion**
 | Urban | 40% | 560 million |
 | **Total** | **100%** | **1.4 billion** |
 
+### Rural Population
+
+**1.4 billion × 60% = 840 million**
+
+**Rural population = 840 million**
+
+### Urban Population
+
+**1.4 billion × 40% = 560 million**
+
+**Urban population = 560 million**
+
 ---
 
 ## Step 2: Estimate Number of Households
@@ -55,19 +62,15 @@ Assume average household size = **4 people**
 
 ### Rural Households
 
-\[
-840M \div 4 = 210M
-\]
+**840 million ÷ 4 people per household = 210 million households**
 
-**Rural households ≈ 210 million**
+**Rural households = 210 million**
 
 ### Urban Households
 
-\[
-560M \div 4 = 140M
-\]
+**560 million ÷ 4 people per household = 140 million households**
 
-**Urban households ≈ 140 million**
+**Urban households = 140 million**
 
 ---
 
@@ -80,19 +83,15 @@ Assume:
 
 ### Rural Cow-owning Households
 
-\[
-210M \times 20\% = 42M
-\]
+**210 million × 20% = 42 million households**
 
-**≈ 42 million households**
+**Rural cow-owning households = 42 million**
 
 ### Urban Cow-owning Households
 
-\[
-140M \times 5\% = 7M
-\]
+**140 million × 5% = 7 million households**
 
-**≈ 7 million households**
+**Urban cow-owning households = 7 million**
 
 ---
 
@@ -105,37 +104,31 @@ Assume:
 
 ### Rural Cows
 
-\[
-42M \times 3 = 126M
-\]
+**42 million households × 3 cows = 126 million cows**
 
-**≈ 126 million cows**
+**Rural household/dairy cows = 126 million**
 
 ### Urban Cows
 
-\[
-7M \times 2 = 14M
-\]
+**7 million households × 2 cows = 14 million cows**
 
-**≈ 14 million cows**
+**Urban household/dairy cows = 14 million**
 
 ### Total Household/Dairy Cows
 
-\[
-126M + 14M = 140M
-\]
+**126 million + 14 million = 140 million cows**
 
-**≈ 140 million cows**
+**Household/dairy cows = 140 million**
 
 ---
 
 ## Step 5: Estimate Freely Moving/Stray Cows
 
-Assume freely moving/stray cows = **10 million**
+Assume freely moving/stray cows = **10 million cows**
 
 ---
 
-## Step 6: Final Estimate
+## Step 6: Final Calculation
 
 | Category | Estimated Cows |
 |---|---:|
@@ -144,11 +137,7 @@ Assume freely moving/stray cows = **10 million**
 | Freely moving/stray cows | 10 million |
 | **Total** | **150 million** |
 
-Therefore:
-
-\[
-140M + 10M = 150M
-\]
+**140 million household/dairy cows + 10 million freely moving cows = 150 million cows**
 
 # Final Estimate
 
