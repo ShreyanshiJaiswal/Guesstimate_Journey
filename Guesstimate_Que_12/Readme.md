@@ -1,9 +1,5 @@
 # Guesstimate 12: How Many Golf Balls / Footballs Fit in a Boeing 747?
 
-## Question
-
-How many golf balls and footballs can fit inside one Boeing 747?
-
 ## Clarifying Questions
 
 1. Are we considering one Boeing 747 or multiple aircraft?
