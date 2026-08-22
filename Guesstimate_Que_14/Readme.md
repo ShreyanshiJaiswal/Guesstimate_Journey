@@ -1,9 +1,5 @@
 # Guesstimate 14: Passengers Traveling in Delhi Metro
 
-## Question
-
-Estimate the number of passengers traveling through the Delhi Metro in one day.
-
 ## Clarifying Questions
 
 1. Are we estimating daily, weekly, monthly, or yearly passengers?
