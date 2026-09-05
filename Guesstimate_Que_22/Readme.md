@@ -8,12 +8,12 @@ Estimate the **liters of petrol sold at a petrol pump per day**.
 
 ## Clarifying Questions
 
-1. Are we estimating petrol sold **daily, weekly, monthly, or yearly**?
-2. Are we considering **peak and non-peak hours**?
-3. Are we considering **all vehicle types**?
-4. What is the **location** of the petrol pump?
-5. What is the **size of the petrol pump** — small, medium, or high-volume?
-6. Is there a **nearby petrol pump** that could divert customers?
+1. Are we estimating petrol sold daily, weekly, monthly, or yearly?
+2. Are we considering peak and non-peak hours?
+3. Are we considering all vehicle types?
+4. What is the location of the petrol pump?
+5. What is the size of the petrol pump - small, medium, or high-volume?
+6. Is there a nearby petrol pump that could divert customers?
 
 ---
 
@@ -29,62 +29,70 @@ Estimate the **daily liters of petrol sold throughout the day at a medium-sized 
 
 The estimation can be broken down into:
 
-**Total vehicles served per day**  
-→ **Vehicle segmentation**  
-→ **Average petrol purchased per vehicle per visit**  
-→ **Petrol sold by each vehicle category**  
+**Total vehicles served per day**
+→ **Vehicle segmentation**
+→ **Average petrol purchased per vehicle per visit**
+→ **Petrol sold by each vehicle category**
 → **Total petrol sold per day**
 
 ---
 
-# Step 1: Estimate Total Vehicles Served Per Day
+## Step 1: Estimate Total Vehicles Served Per Day
 
 Assume the medium-sized petrol pump operates for approximately **18 hours per day**.
 
-A medium-sized station is assumed to have around **4–6 petrol dispensers**. Each vehicle takes approximately **2–5 minutes** to refuel.
+A medium-sized petrol pump is assumed to have approximately **4-6 dispensers**.
 
-Therefore, the theoretical capacity per hour can be estimated as:
+Assume each vehicle takes approximately **2-5 minutes** for refueling.
 
-- One dispenser at 5 minutes/vehicle:
+### Theoretical Capacity
 
-\[
-60/5 = 12 \text{ vehicles/hour}
-\]
+For one dispenser:
 
-- One dispenser at 2 minutes/vehicle:
+- At 5 minutes per vehicle:
 
-\[
-60/2 = 30 \text{ vehicles/hour}
-\]
+  `60 / 5 = 12 vehicles/hour`
 
-For 4–6 dispensers, this gives a theoretical capacity of approximately **48–180 vehicles/hour**.
+- At 2 minutes per vehicle:
 
-However, the pump will not operate at maximum capacity continuously because of idle time, vehicle positioning, payment time, and variations in customer demand.
+  `60 / 2 = 30 vehicles/hour`
 
-Therefore, we use **~100 vehicles/hour during peak hours** as a practical assumption.
+Therefore, for 4-6 dispensers:
 
-We divide the operating day into peak, normal, and non-peak periods.
+| Number of Dispensers | At 5 min/vehicle | At 2 min/vehicle |
+|---:|---:|---:|
+| 4 | 48 vehicles/hour | 120 vehicles/hour |
+| 5 | 60 vehicles/hour | 150 vehicles/hour |
+| 6 | 72 vehicles/hour | 180 vehicles/hour |
+
+This is the **theoretical maximum capacity**. Actual throughput will be lower because of vehicle positioning, payment time, idle periods, and variations in customer demand.
+
+Therefore, we assume the following practical throughput:
 
 | Period | Hours | Vehicles/Hour | Vehicles Served |
 |---|---:|---:|---:|
 | Peak | 6 | 100 | 600 |
 | Normal | 8 | 70 | 560 |
 | Non-peak | 4 | 30 | 120 |
-| **Total** | **18** | — | **1,280** |
+| **Total** | **18** | - | **1,280** |
 
-Therefore:
+### Calculation
 
-\[
-600 + 560 + 120 = 1,280
-\]
+`Peak vehicles = 6 × 100 = 600`
 
-We round this to:
+`Normal vehicles = 8 × 70 = 560`
 
-### **~1,300 vehicles/day**
+`Non-peak vehicles = 4 × 30 = 120`
+
+`Total vehicles = 600 + 560 + 120 = 1,280`
+
+Round this to:
+
+### **~1,300 vehicles per day**
 
 ---
 
-# Step 2: Segment Vehicles
+## Step 2: Segment Vehicles
 
 For a Tier-1 city, assume the vehicles visiting the petrol pump are distributed as follows:
 
@@ -95,21 +103,21 @@ For a Tier-1 city, assume the vehicles visiting the petrol pump are distributed 
 | Petrol-powered commercial/other vehicles | 10% | 130 |
 | **Total** | **100%** | **1,300** |
 
-### Why 50% Two-Wheelers?
+### Assumption: Two-Wheelers
 
 Two-wheelers are assumed to form the largest segment because they are widely used for urban commuting and are convenient in congested Tier-1 city traffic.
 
-### Why 40% Four-Wheelers?
+### Assumption: Four-Wheelers
 
-Cars form another major portion of urban traffic and generally purchase more petrol per visit than two-wheelers.
+Four-wheelers form another major segment of urban traffic and generally require more petrol per visit than two-wheelers.
 
-### Why 10% Commercial/Other Vehicles?
+### Assumption: Commercial/Other Vehicles
 
-Many buses and heavy trucks typically use diesel rather than petrol. Therefore, this category represents **petrol-powered commercial and other vehicles**, rather than assuming that all buses and trucks use petrol.
+Many buses and heavy trucks typically use diesel rather than petrol. Therefore, this category represents **petrol-powered commercial and other vehicles** rather than assuming all buses and trucks use petrol.
 
 ---
 
-# Step 3: Estimate Petrol Purchased Per Visit
+## Step 3: Estimate Petrol Purchased Per Visit
 
 Tank capacity does not mean that the vehicle fills its entire tank during every visit.
 
@@ -117,57 +125,51 @@ Therefore, we estimate the **average quantity of petrol purchased per visit**.
 
 | Vehicle Type | Typical Tank Capacity | Refueling Pattern | Assumed Petrol per Visit |
 |---|---:|---|---:|
-| Two-wheelers | 8–15 L | Every 3–4 days | 3 L |
-| Four-wheelers | 40–60 L | Approximately weekly | 10 L |
+| Two-wheelers | 8-15 L | Every 3-4 days | 3 L |
+| Four-wheelers | 40-60 L | Approximately weekly | 10 L |
 | Petrol-powered commercial/other vehicles | Higher capacity | More frequent refueling | 30 L |
 
-The assumed values represent **petrol purchased per visit**, rather than the total tank capacity.
+The assumed petrol quantity is the **amount purchased per visit**, not the total tank capacity.
 
 ---
 
-# Step 4: Calculate Petrol Sold by Vehicle Type
+## Step 4: Calculate Petrol Sold by Vehicle Type
 
 ### Two-Wheelers
 
-\[
-650 \times 3 = 1,950 \text{ L/day}
-\]
+`650 vehicles × 3 L = 1,950 L/day`
 
 ### Four-Wheelers
 
-\[
-520 \times 10 = 5,200 \text{ L/day}
-\]
+`520 vehicles × 10 L = 5,200 L/day`
 
 ### Petrol-Powered Commercial/Other Vehicles
 
-\[
-130 \times 30 = 3,900 \text{ L/day}
-\]
+`130 vehicles × 30 L = 3,900 L/day`
 
 ---
 
-# Step 5: Calculate Total Petrol Sold
+## Step 5: Calculate Total Petrol Sold
 
 | Vehicle Type | Vehicles/Day | Petrol/Vehicle/Visit | Petrol Sold/Day |
 |---|---:|---:|---:|
 | Two-wheelers | 650 | 3 L | 1,950 L |
 | Four-wheelers | 520 | 10 L | 5,200 L |
 | Petrol-powered commercial/other vehicles | 130 | 30 L | 3,900 L |
-| **Total** | **1,300** | — | **11,050 L** |
+| **Total** | **1,300** | - | **11,050 L** |
 
-Therefore:
+### Calculation
 
-\[
-1,950 + 5,200 + 3,900 = 11,050 \text{ L/day}
-\]
+`Total petrol sold = 1,950 + 5,200 + 3,900`
+
+`Total petrol sold = 11,050 L/day`
 
 ---
 
 # Final Estimate
 
-### **≈ 11,050 liters of petrol sold per day**
+## **~11,000 Liters of Petrol Sold Per Day**
 
-Therefore, a reasonable guesstimate for a **medium-sized petrol pump in a Tier-1 city** is:
+Therefore, our estimate for a **medium-sized petrol pump in a Tier-1 city** is approximately:
 
-## **~11,000 liters of petrol per day**
+### **11,050 liters of petrol per day**
