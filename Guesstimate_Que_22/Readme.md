@@ -92,3 +92,82 @@ For a Tier-1 city, assume the vehicles visiting the petrol pump are distributed 
 |---|---:|---:|
 | Two-wheelers | 50% | 650 |
 | Four-wheelers | 40% | 520 |
+| Petrol-powered commercial/other vehicles | 10% | 130 |
+| **Total** | **100%** | **1,300** |
+
+### Why 50% Two-Wheelers?
+
+Two-wheelers are assumed to form the largest segment because they are widely used for urban commuting and are convenient in congested Tier-1 city traffic.
+
+### Why 40% Four-Wheelers?
+
+Cars form another major portion of urban traffic and generally purchase more petrol per visit than two-wheelers.
+
+### Why 10% Commercial/Other Vehicles?
+
+Many buses and heavy trucks typically use diesel rather than petrol. Therefore, this category represents **petrol-powered commercial and other vehicles**, rather than assuming that all buses and trucks use petrol.
+
+---
+
+# Step 3: Estimate Petrol Purchased Per Visit
+
+Tank capacity does not mean that the vehicle fills its entire tank during every visit.
+
+Therefore, we estimate the **average quantity of petrol purchased per visit**.
+
+| Vehicle Type | Typical Tank Capacity | Refueling Pattern | Assumed Petrol per Visit |
+|---|---:|---|---:|
+| Two-wheelers | 8–15 L | Every 3–4 days | 3 L |
+| Four-wheelers | 40–60 L | Approximately weekly | 10 L |
+| Petrol-powered commercial/other vehicles | Higher capacity | More frequent refueling | 30 L |
+
+The assumed values represent **petrol purchased per visit**, rather than the total tank capacity.
+
+---
+
+# Step 4: Calculate Petrol Sold by Vehicle Type
+
+### Two-Wheelers
+
+\[
+650 \times 3 = 1,950 \text{ L/day}
+\]
+
+### Four-Wheelers
+
+\[
+520 \times 10 = 5,200 \text{ L/day}
+\]
+
+### Petrol-Powered Commercial/Other Vehicles
+
+\[
+130 \times 30 = 3,900 \text{ L/day}
+\]
+
+---
+
+# Step 5: Calculate Total Petrol Sold
+
+| Vehicle Type | Vehicles/Day | Petrol/Vehicle/Visit | Petrol Sold/Day |
+|---|---:|---:|---:|
+| Two-wheelers | 650 | 3 L | 1,950 L |
+| Four-wheelers | 520 | 10 L | 5,200 L |
+| Petrol-powered commercial/other vehicles | 130 | 30 L | 3,900 L |
+| **Total** | **1,300** | — | **11,050 L** |
+
+Therefore:
+
+\[
+1,950 + 5,200 + 3,900 = 11,050 \text{ L/day}
+\]
+
+---
+
+# Final Estimate
+
+### **≈ 11,050 liters of petrol sold per day**
+
+Therefore, a reasonable guesstimate for a **medium-sized petrol pump in a Tier-1 city** is:
+
+## **~11,000 liters of petrol per day**
